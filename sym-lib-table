@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Test")(type "KiCad")(uri "${KIPRJMOD}/Test.kicad_sym")(options "")(descr ""))
+  (lib (name "CmpAmpliAudioTR")(type "KiCad")(uri "${KIPRJMOD}/MaLib_Ampli_2022/CmpAmpliAudioTR.kicad_sym")(options "")(descr ""))
+)
