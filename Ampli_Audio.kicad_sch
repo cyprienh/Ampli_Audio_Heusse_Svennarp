@@ -2483,7 +2483,7 @@
     (property "Value" "10u" (id 1) (at 58.42 175.6409 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 55.5752 179.07 0)
+    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 55.5752 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 54.61 175.26 0)
@@ -2553,7 +2553,7 @@
     (property "Value" "BZX55C5V1" (id 1) (at 66.04 35.5599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 63.5 34.29 0)
+    (property "Footprint" "CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal" (id 2) (at 63.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 63.5 34.29 0)
@@ -2662,7 +2662,7 @@
     (property "Value" "R_POT" (id 1) (at 116.84 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "CmpAmpliAudioTR:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" (id 2) (at 118.11 72.39 0)
+    (property "Footprint" "CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical" (id 2) (at 118.11 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 72.39 0)
@@ -2682,7 +2682,7 @@
     (property "Value" "470u" (id 1) (at 196.85 48.6409 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 194.0052 52.07 0)
+    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm" (id 2) (at 194.0052 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 48.26 0)
@@ -2787,7 +2787,7 @@
     (property "Value" "100u" (id 1) (at 250.19 127.3809 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 247.3452 130.81 0)
+    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 247.3452 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 246.38 127 0)
@@ -2856,7 +2856,7 @@
     (property "Value" "10u" (id 1) (at 58.42 157.8609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 55.5752 161.29 0)
+    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 55.5752 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 54.61 157.48 0)
@@ -3055,7 +3055,7 @@
     (uuid a8523b99-522b-44c7-a5af-9ab9ecc4c598)
     (property "Reference" "U1" (id 0) (at 233.68 74.93 90))
     (property "Value" "Relay_1CT" (id 1) (at 233.68 77.47 90))
-    (property "Footprint" "CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical" (id 2) (at 233.68 87.63 0)
+    (property "Footprint" "CmpAmpliAudioTR:Relais_112LMH2" (id 2) (at 233.68 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 233.68 87.63 0)
@@ -3249,7 +3249,7 @@
     (uuid b752bda3-13c7-4a57-9e66-fac5ed0b3f84)
     (property "Reference" "C1" (id 0) (at 45.72 93.98 90))
     (property "Value" "47u" (id 1) (at 45.72 101.6 90))
-    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm" (id 2) (at 41.91 98.7552 0)
+    (property "Footprint" "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 41.91 98.7552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 45.72 97.79 0)
@@ -3583,28 +3583,28 @@
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/b752bda3-13c7-4a57-9e66-fac5ed0b3f84"
-      (reference "C1") (unit 1) (value "47u") (footprint "CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "47u") (footprint "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/8138a812-ad1f-4669-b46d-d687671a4278"
       (reference "C2") (unit 1) (value "C") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/7e366d80-6712-40b4-ad25-6f0ee9e94346"
-      (reference "C3") (unit 1) (value "100u") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C3") (unit 1) (value "100u") (footprint "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/881151d5-15ed-4355-a69f-6abefa3c2028"
-      (reference "C4") (unit 1) (value "10u") (footprint "")
+      (reference "C4") (unit 1) (value "10u") (footprint "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/1409a2a3-4f15-4c7d-a042-5fc36dcf732d"
       (reference "C5") (unit 1) (value "100n") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/3bfcbcca-b58d-4929-876d-00863865e078"
-      (reference "C6") (unit 1) (value "10u") (footprint "")
+      (reference "C6") (unit 1) (value "10u") (footprint "CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/8e1309e7-40cd-4875-a50b-909fb696e690"
       (reference "C7") (unit 1) (value "100n") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
     (path "/69d3cba1-3708-4aa2-817b-6cc6464f3ce1"
-      (reference "C8") (unit 1) (value "470u") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C8") (unit 1) (value "470u") (footprint "CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/d97b9dbf-88ee-465c-9f97-babb7d5604e4"
       (reference "C9") (unit 1) (value "100n") (footprint "CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
@@ -3622,7 +3622,7 @@
       (reference "D2") (unit 1) (value "D_Zener") (footprint "CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal")
     )
     (path "/422938f0-c42f-4637-ad9a-bedde43edf63"
-      (reference "Dz1") (unit 1) (value "BZX55C5V1") (footprint "")
+      (reference "Dz1") (unit 1) (value "BZX55C5V1") (footprint "CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal")
     )
     (path "/9111d637-58c6-40e6-ad60-d176ee7daaa6"
       (reference "HS1") (unit 1) (value "Heatsink") (footprint "CmpAmpliAudioTR:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm")
@@ -3724,13 +3724,13 @@
       (reference "R16") (unit 1) (value "R") (footprint "CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/5ec1e6f2-cb34-40f1-ad7b-98189ce7c827"
-      (reference "RV1") (unit 1) (value "R_POT") (footprint "CmpAmpliAudioTR:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm")
+      (reference "RV1") (unit 1) (value "R_POT") (footprint "CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/b5f72fc0-39c7-41aa-a3d9-34ddb2e446be"
       (reference "RV2") (unit 1) (value "R_POT") (footprint "CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/a8523b99-522b-44c7-a5af-9ab9ecc4c598"
-      (reference "U1") (unit 1) (value "Relay_1CT") (footprint "CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical")
+      (reference "U1") (unit 1) (value "Relay_1CT") (footprint "CmpAmpliAudioTR:Relais_112LMH2")
     )
     (path "/1e17fc22-e279-4742-81e3-1993a926b45c"
       (reference "U2") (unit 1) (value "Jack_Mono") (footprint "CmpAmpliAudioTR:Jack_35RAPC2AV")
