@@ -1,4 +1,4 @@
-20138194412211452
+20141488796145990
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6271,6 +6271,20 @@ Heatsink fischer TO-220
 0
 2
 1
+CmpAmpliAudioTR
+INSA
+
+
+0
+0
+0
+CmpAmpliAudioTR
+INSA_Toulouse
+
+
+0
+0
+0
 CmpAmpliAudioTR
 Jack_35RAPC2AV
 

@@ -103,7 +103,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.3,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -392,7 +392,11 @@
         "name": "MyPower",
         "nets": [
           "+12V",
-          "-12V"
+          "-12V",
+          "Net-(J2-Pad2)",
+          "Net-(Q10-Pad2)",
+          "Net-(Q11-Pad1)",
+          "Net-(R11-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
